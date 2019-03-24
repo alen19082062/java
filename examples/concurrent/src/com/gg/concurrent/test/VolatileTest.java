@@ -1,10 +1,36 @@
 package com.gg.concurrent.test;
 
+import com.gg.util.ThreadUtil;
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 public class VolatileTest {
     public volatile int inc = 0;
 
+    Lock lock = new ReentrantLock();
+
+    /*
+    // 非原子操作
     public void increase() {
         inc++;
+    }
+    */
+
+    /*
+    // 增加同步标志，保证函数不重入
+    public synchronized void increase() {
+        inc++;
+    }
+    */
+
+    public  void increase() {
+        lock.lock();
+        try {
+            inc++;
+        } finally{
+            lock.unlock();
+        }
     }
 
     public static void main(String[] args) {
@@ -15,9 +41,8 @@ public class VolatileTest {
                     for(int j=0;j<1000;j++){
                         test.increase();
                     }
-
                     Thread t = Thread.currentThread();
-                    System.out.println("当前线程名字：" + t.getName() + " 当前线程的优先级别为："+ t.getPriority() + " ID:" + t.getId() + ", inc = " + test.inc);
+                    System.out.println(ThreadUtil.toString(t) + "  inc = " + test.inc);
                 };
             }.start();
         }

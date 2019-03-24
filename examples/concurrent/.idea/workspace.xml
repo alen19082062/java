@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba752e0-90b4-4794-8e63-8aae95ebc2bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../con_current/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../con_current/src/main/java/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$BusiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$BusiThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$InitThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$InitThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/ThreadJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/ThreadJoin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +32,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" lean-forward="true" selection-start-line="18" selection-end-line="20" />
+            <state relative-caret-position="-46">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="19" />
               <folding>
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#135#136#0" expanded="true" />
-                <element signature="e#288#678#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#722#1055#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,17 +46,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="10" column="33" selection-start-line="10" selection-end-line="11" />
+            <state relative-caret-position="470">
+              <caret line="56" column="43" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1138">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+            <state relative-caret-position="305">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+              <folding>
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -66,13 +108,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/OddAndEven.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/Odd2.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Prt.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1346" />
     <option name="height" value="658" />
   </component>
@@ -82,6 +134,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -99,18 +152,38 @@
               <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gg" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gg" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gg.concurrent.test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,36 +197,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchTest">
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.CountDownLatchTest" />
+  <component name="RunManager" selected="Application.InTurn3Print">
+    <configuration name="InTurn2Prt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.InTurn2Prt" />
       <module name="concurrent" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.Main" />
+    <configuration name="InTurn3Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.InTurn3Print" />
       <module name="concurrent" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InTurnPrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.InTurnPrt" />
+      <module name="concurrent" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.ThreadExit" />
+      <module name="concurrent" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.ThreadJoin" />
-      <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.VolatileTest" />
       <module name="concurrent" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -167,16 +245,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.VolatileTest" />
       <item itemvalue="Application.ThreadJoin" />
-      <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.InTurnPrt" />
+      <item itemvalue="Application.InTurn2Prt" />
+      <item itemvalue="Application.ThreadExit" />
+      <item itemvalue="Application.InTurn3Print" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.InTurn3Print" />
+        <item itemvalue="Application.InTurn2Prt" />
+        <item itemvalue="Application.InTurnPrt" />
+        <item itemvalue="Application.ThreadExit" />
         <item itemvalue="Application.ThreadJoin" />
-        <item itemvalue="Application.VolatileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,68 +268,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552846846414</updated>
-      <workItem from="1552846851480" duration="2346000" />
+      <workItem from="1552846851480" duration="7508000" />
+      <workItem from="1553435950008" duration="11929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2346000" />
+    <option name="totallyTimeSpent" value="19437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24961832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22977099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32971016" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.442029" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42753622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32971016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" lean-forward="true" selection-start-line="18" selection-end-line="20" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#288#678#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="33" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/dev/jdk8/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -256,10 +318,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="1541">
+          <caret line="70" column="113" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="59" selection-start-line="59" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1138">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="56" column="43" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#722#1055#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

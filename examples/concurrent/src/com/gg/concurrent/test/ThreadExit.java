@@ -1,6 +1,6 @@
 package com.gg.concurrent.test;
 
-public class ThreadJoin {
+public class ThreadExit {
 
     /**
      * 如何确保main()方法所在的线程是Java 程序最后结束的线程？
@@ -47,13 +47,13 @@ public class ThreadJoin {
         }, "thread3");
 
         thread2.start();
-        thread2.join();
+        //thread2.join();
         thread1.start();
-        thread1.yield();
+        //thread1.yield();
         // Thread.currentThread().yield();
         // thread1.join();
         thread3.start();
-        thread3.join();
+        // thread3.join();
         System.out.println("main:" + Thread.currentThread().getName());
 
 
