@@ -2,23 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba752e0-90b4-4794-8e63-8aae95ebc2bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$BusiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$BusiThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$InitThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$InitThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/ThreadJoin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/ThreadJoin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/META-INF/concurrent.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$BusiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest$InitThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/CountDownLatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurn2Prt$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurn2Prt$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurn2Prt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurn3Print$ThreadPrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurn3Print.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurnPrt$ThreadPrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/InTurnPrt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/NotifyAllTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/NotifyAllTest$ThreadA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/NotifyAllTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/ThreadExit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/ThreadJoin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/test/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/util/ThreadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/util/ThreadUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn2Prt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn3Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurnPrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/NotifyAllTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadJoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/VolatileTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,66 +58,83 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="225">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#722#1055#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#215#223#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="56" column="43" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="43" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Producer.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Main.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1138">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="306">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="300">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Main.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="250">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="25" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#341#349#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -119,6 +164,16 @@
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Prt.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurnPrt.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn3Print.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Producer.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Storage.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java" />
       </list>
     </option>
   </component>
@@ -135,7 +190,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +213,15 @@
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gg" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gg" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
@@ -172,17 +234,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ali_cloud/Sentinel" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gg.concurrent.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent\producer_semaphore" />
+      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent\producer_block" />
+      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent" />
+      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent\producer_lock" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -197,41 +266,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InTurn3Print">
-    <configuration name="InTurn2Prt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.InTurn2Prt" />
-      <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="InTurn3Print" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.InTurn3Print" />
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.basic.InTurn3Print" />
       <module name="concurrent" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InTurnPrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.InTurnPrt" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer_lock.Main" />
       <module name="concurrent" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.ThreadExit" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer_block.Main" />
       <module name="concurrent" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.test.ThreadJoin" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer_semaphore.Main" />
+      <module name="concurrent" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer.Main" />
       <module name="concurrent" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
@@ -245,21 +314,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadJoin" />
-      <item itemvalue="Application.InTurnPrt" />
-      <item itemvalue="Application.InTurn2Prt" />
-      <item itemvalue="Application.ThreadExit" />
       <item itemvalue="Application.InTurn3Print" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.InTurn3Print" />
-        <item itemvalue="Application.InTurn2Prt" />
-        <item itemvalue="Application.InTurnPrt" />
-        <item itemvalue="Application.ThreadExit" />
-        <item itemvalue="Application.ThreadJoin" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -270,24 +342,25 @@
       <updated>1552846846414</updated>
       <workItem from="1552846851480" duration="7508000" />
       <workItem from="1553435950008" duration="11929000" />
+      <workItem from="1553496448811" duration="6538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19437000" />
+    <option name="totallyTimeSpent" value="25975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22977099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23435114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42753622" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4270073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,21 +384,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/dev/jdk8/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java">
+    <entry file="jar://D:/dev/jdk8/src.zip!/java/lang/Runnable.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/CountDownLatchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1541">
           <caret line="70" column="113" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="113" />
@@ -335,65 +395,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/VolatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="59" selection-start-line="59" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="1075">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="19" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadJoin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1138">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
+        <state relative-caret-position="1400">
           <caret line="56" column="43" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#722#1055#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1450">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn2Prt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn2Prt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
+        <state relative-caret-position="1100">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurnPrt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/NotifyAllTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn3Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Producer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#215#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Producer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <element signature="e#341#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
         </state>
       </provider>
     </entry>
