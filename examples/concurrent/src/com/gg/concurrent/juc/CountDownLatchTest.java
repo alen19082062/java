@@ -1,14 +1,14 @@
-package com.gg.concurrent.basic;
+package com.gg.concurrent.juc;
 
 import com.gg.util.ThreadUtil;
 
 import java.util.concurrent.CountDownLatch;
 
 public class CountDownLatchTest {
-    // 初始化
+    // 初始化,需要 6 次 count down
     static CountDownLatch latch = new CountDownLatch(6);
     static {
-        System.out.println("Init ... latch  :  " + latch.toString());
+        System.out.println("Init ...需要 6 次 count down ， latch  :  " + latch.toString());
     }
 
     //初始化线程(只有一步，有4个)

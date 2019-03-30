@@ -1,9 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ba752e0-90b4-4794-8e63-8aae95ebc2bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/SyncTest2.java" afterDir="false" />
+    <list default="true" id="b6aad7c1-0816-4d81-9abb-2c8110b2cf2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/META-INF/concurrent.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/UnsafeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/ArrayBlockingQueueTest$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/ArrayBlockingQueueTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CopyOnWriteArrayListTest$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CopyOnWriteArrayListTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CountDownLatchTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CountDownLatchTest$BusiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CountDownLatchTest$InitThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CountDownLatchTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Customer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CyclicBarrierTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CyclicBarrierTest$InnerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/CyclicBarrierTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Depot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/FutureTaskTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/FutureTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/LockSupportTest$ThreadA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/LockSupportTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/MyCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Producer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/ReentrantLockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/ReentrantReadWriteLockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/SemaphoreTest$Worker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/SemaphoreTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/Task2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/ThreadPoolTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/User$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/User$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/juc/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/UnsafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ArrayBlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CopyOnWriteArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/FutureTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/FutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/LockSupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/MyCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ReentrantLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ReentrantReadWriteLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ThreadPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/.idea/con_current.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../con_current/src/main/java/VolatileTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest$BusiThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest$InitThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurn3Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurn3Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurnPrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurnPrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/NotifyAllTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/NotifyAllTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/ThreadExit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/ThreadExit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/producer_lock/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/producer_lock/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/util/ThreadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/util/ThreadUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/basic/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CountDownLatchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,124 +81,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Producer.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Main.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/SyncTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Main.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="25" />
-              <folding>
-                <element signature="e#341#349#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/VolatileTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadJoin.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/NotifyAllTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/ThreadExit.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/OddAndEven.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/Odd2.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Prt.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurn3Print.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/test/InTurnPrt.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurnPrt.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn3Print.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Producer.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Storage.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/basic/SyncTest2.java" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
@@ -137,76 +90,17 @@
     <option name="width" value="1346" />
     <option name="height" value="658" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gg" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gg" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gg" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.gg.concurrent.test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent\producer_semaphore" />
-      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent\producer_block" />
-      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent" />
-      <recent name="F:\git_code\19082062\java\examples\concurrent\src\com\gg\concurrent\producer_lock" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,67 +114,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SyncTest2">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer_lock.Main" />
+  <component name="RunManager">
+    <configuration name="NotifyAllTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.basic.NotifyAllTest" />
       <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer_block.Main" />
-      <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer_semaphore.Main" />
-      <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.producer.Main" />
-      <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.basic.SyncTest2" />
-      <module name="concurrent" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.SyncTest2" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SyncTest2" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NotifyAllTest" />
       </list>
     </recent_temporary>
   </component>
@@ -289,233 +133,46 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1ba752e0-90b4-4794-8e63-8aae95ebc2bb" name="Default Changelist" comment="" />
-      <created>1552846846414</created>
+      <changelist id="b6aad7c1-0816-4d81-9abb-2c8110b2cf2f" name="Default Changelist" comment="" />
+      <created>1553932011231</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1552846846414</updated>
-      <workItem from="1552846851480" duration="7508000" />
-      <workItem from="1553435950008" duration="11929000" />
-      <workItem from="1553496448811" duration="6539000" />
-      <workItem from="1553742573657" duration="2619000" />
+      <updated>1553932011231</updated>
+      <workItem from="1553932014316" duration="516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28595000" />
+    <option name="totallyTimeSpent" value="516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2389313" />
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4270073" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32971016" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://D:/dev/jdk8/src.zip!/java/lang/Runnable.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/CountDownLatchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="70" column="113" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/VolatileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1400">
-          <caret line="56" column="43" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn2Prt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurnPrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/NotifyAllTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-          <folding>
-            <element signature="e#1293#1294#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/InTurn3Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Producer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Producer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_block/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#341#349#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/producer_semaphore/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/basic/SyncTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

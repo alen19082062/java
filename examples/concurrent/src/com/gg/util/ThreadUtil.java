@@ -9,4 +9,11 @@ public class ThreadUtil {
         String str = "[" + t.getName() + " / " + t.getId() + "  poirity ："+ t.getPriority() + " ]" ;
         return str ;
     }
+
+    public static String toNameString(){
+        String str = "[" + Thread.currentThread().getName() + " / "
+                + Thread.currentThread().getId() + "  poirity ："
+                + Thread.currentThread().getPriority() + " ]" ;
+        return str ;
+    }
 }
