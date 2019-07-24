@@ -3,8 +3,8 @@ package com.gg.patten.proxy;
 public class Proxy implements Subject {
 
     public void WrapMac(){
-        System.out.println("Proxy.WarpMac() ...");
-        System.out.println("Proxy.WarpMac() 包装好 ");
+        System.out.println("ProxyHandler.WarpMac() ...");
+        System.out.println("ProxyHandler.WarpMac() 包装好 ");
     }
 
     @Override

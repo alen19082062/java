@@ -22,7 +22,7 @@ public class JDKInvocationHandlerImpl implements InvocationHandler {
 //    public Object newProxy(Object targetObject) {
 //        this.targetObject = targetObject;
 //        //返回代理对象
-//        return Proxy.newProxyInstance(targetObject.getClass().getClassLoader(),
+//        return ProxyHandler.newProxyInstance(targetObject.getClass().getClassLoader(),
 //                targetObject.getClass().getInterfaces(), this);
 //    }
 
