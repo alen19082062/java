@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba752e0-90b4-4794-8e63-8aae95ebc2bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/UnsafeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ArrayBlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CopyOnWriteArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/FutureTaskTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/FutureTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/LockSupportTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/MyCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ReentrantLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ReentrantReadWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest$BusiThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest$InitThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/CountDownLatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurn3Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurn3Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurnPrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/InTurnPrt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/NotifyAllTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/NotifyAllTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/ThreadExit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/basic/ThreadExit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/producer_lock/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/concurrent/producer_lock/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/concurrent/com/gg/util/ThreadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/concurrent/com/gg/util/ThreadUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/basic/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/basic/ThreadExit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/producer_lock/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/util/ThreadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/ArrayBlockingQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="1081">
               <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -133,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+            <state relative-caret-position="42">
+              <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/SemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="184">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,14 +189,14 @@
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/ThreadPoolTest.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/FutureTest.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/FutureTaskTest.java" />
-        <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/SemphoreTest.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/basic/CountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/SemaphoreTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1346" />
@@ -265,22 +238,6 @@
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gg" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gg" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="concurrent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="gg" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -294,8 +251,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ali_cloud/Sentinel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../ali/nacos" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -321,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreTest">
+  <component name="RunManager" selected="Application.CyclicBarrierTest">
     <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gg.concurrent.juc.CountDownLatchTest" />
       <module name="concurrent" />
@@ -377,9 +337,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.SemaphoreTest" />
         <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.CyclicBarrierTest" />
         <item itemvalue="Application.FutureTaskTest" />
         <item itemvalue="Application.FutureTest" />
       </list>
@@ -402,20 +362,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44052000" />
+    <option name="totallyTimeSpent" value="46631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="716" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23435114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23435114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5905797" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5905797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,7 +383,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32971016" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32971016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -688,19 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/ArrayBlockingQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#479#487#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/ThreadPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -739,16 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/CopyOnWriteArrayListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
@@ -771,13 +707,111 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/SemaphoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="184">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="15" column="86" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gg/concurrent/juc/ArrayBlockingQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#479#487#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>concurrent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
